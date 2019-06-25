@@ -1,4 +1,2 @@
-# r0vnix
-Оригинальный источник вредоносного ПО Rovnix, 2013 год.
-
-2013 Исходный код Rovnix, модифицированный для работы с окнами 8.1 x86_64, имеет возможность запускать XMR и может напрямую подключаться к KMD для обхода BattlEye (2018).
+# danK
+A BattlEye bypass that does NOT emulate BEService but instead abuses a vulnerability in Windows to completely disable PatchGuard and DSE, allowing us to load our driver. Fully disables the BattlEye minifilters, rendering the filter driver useless. Tested on Windows 8.1.
